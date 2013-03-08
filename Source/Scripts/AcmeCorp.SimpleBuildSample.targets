@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project 
+  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <!-- IMPORTANT - you must import these targets for the build scripts to function. -->
+  <Import Project="..\packages\StealFocus.Build.1.2.30218.0\Scripts\StealFocus.Build.tasks" />
+
+  <PropertyGroup>
+    <CompanyName>AcmeCorp</CompanyName>
+    <Culture>en-GB</Culture>
+    <ProductName>SimpleBuildSample</ProductName>
+    <StrongNamePublicKey>00240000048000009400000006020000002400005253413100040000010001002173e7bcd6ff50e0b65d4fcbcdac70b474b3414b27a2326f8d9bdcd60ec0af998c0ee5959acda841ea549d955e8972d8ce565fd49e441880f7ffe783da5222390052e7f838821750b115c858dfefdb4df5791d214f08251231c7010c7ef1e1813a5628e632aa4ad796ddc51fa0cba41e4cb7b0b56444a4f6747b6672416368bd</StrongNamePublicKey>
+    <StrongNamePublicKeyToken>8cde4cb5b0cc9633</StrongNamePublicKeyToken>
+    <StyleCopVersion>4.7</StyleCopVersion>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeCorp.SimpleBuildSample", "AcmeCorp.SimpleBuildSample\AcmeCorp.SimpleBuildSample.csproj", "{308C8EF8-A762-4772-822D-FEF08DAC4E04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeCorp.SimpleBuildSample.Tests", "AcmeCorp.SimpleBuildSample.Tests\AcmeCorp.SimpleBuildSample.Tests.csproj", "{C0815A06-F42E-475E-A496-D7DBF8679986}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD31689E-C501-491F-AF56-13DAB774603C}"
+	ProjectSection(SolutionItems) = preProject
+		AcmeCorp.SimpleBuildSample.ruleset = AcmeCorp.SimpleBuildSample.ruleset
+		AcmeCorp.SimpleBuildSample.StrongNameKeyPair.snk = AcmeCorp.SimpleBuildSample.StrongNameKeyPair.snk
+		AcmeCorp.SimpleBuildSample.StrongNamePublicKey.snk = AcmeCorp.SimpleBuildSample.StrongNamePublicKey.snk
+		AcmeCorp.SimpleBuildSample.vsmdi = AcmeCorp.SimpleBuildSample.vsmdi
+		BuildServer.testsettings = BuildServer.testsettings
+		FxCopCustomDictionary.xml = FxCopCustomDictionary.xml
+		Local.testsettings = Local.testsettings
+		Settings.StyleCop = Settings.StyleCop
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{592935CC-7FB9-4A0A-8D2F-BE04238C6800}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{20B9FBA6-9534-42CF-9766-81B27CEB42C8}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommandFiles", "CommandFiles", "{164498D1-4A5A-48D0-B0BF-5B5581659530}"
+	ProjectSection(SolutionItems) = preProject
+		CommandFiles\AcmeCorp.SimpleBuildSample.Build.cmd = CommandFiles\AcmeCorp.SimpleBuildSample.Build.cmd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{378EDDBB-B156-40FA-8EEE-F0D6048A86D6}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\AcmeCorp.SimpleBuildSample.Build.proj = Scripts\AcmeCorp.SimpleBuildSample.Build.proj
+		Scripts\AcmeCorp.SimpleBuildSample.Build.Project.Assembly.targets = Scripts\AcmeCorp.SimpleBuildSample.Build.Project.Assembly.targets
+		Scripts\AcmeCorp.SimpleBuildSample.Build.Project.CSharp.targets = Scripts\AcmeCorp.SimpleBuildSample.Build.Project.CSharp.targets
+		Scripts\AcmeCorp.SimpleBuildSample.Build.Project.targets = Scripts\AcmeCorp.SimpleBuildSample.Build.Project.targets
+		Scripts\AcmeCorp.SimpleBuildSample.Build.Project.VisualBasic.targets = Scripts\AcmeCorp.SimpleBuildSample.Build.Project.VisualBasic.targets
+		Scripts\AcmeCorp.SimpleBuildSample.CCNet.proj = Scripts\AcmeCorp.SimpleBuildSample.CCNet.proj
+		Scripts\AcmeCorp.SimpleBuildSample.targets = Scripts\AcmeCorp.SimpleBuildSample.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = AcmeCorp.SimpleBuildSample.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{308C8EF8-A762-4772-822D-FEF08DAC4E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{308C8EF8-A762-4772-822D-FEF08DAC4E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{308C8EF8-A762-4772-822D-FEF08DAC4E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{308C8EF8-A762-4772-822D-FEF08DAC4E04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0815A06-F42E-475E-A496-D7DBF8679986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0815A06-F42E-475E-A496-D7DBF8679986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0815A06-F42E-475E-A496-D7DBF8679986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0815A06-F42E-475E-A496-D7DBF8679986}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C0815A06-F42E-475E-A496-D7DBF8679986} = {592935CC-7FB9-4A0A-8D2F-BE04238C6800}
+	EndGlobalSection
+EndGlobal
